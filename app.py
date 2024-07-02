@@ -39,7 +39,7 @@ def predict_diseases(model, image, class_indices):
     return predicted_class_name,probs[pred_class_prob]
 
 st.title("Plants Diseases Classifier with AI")
-st.subheader("Made by Vecrosoft")
+st.subheader("Made by Dhiraj")
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
